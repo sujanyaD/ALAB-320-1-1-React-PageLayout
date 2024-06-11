@@ -1,10 +1,13 @@
 import React from "react";
+import Header from "./Header";
+
+
 
 function Homepage(){
 
 return (
     <div className="Home-page">
-    <h1>Employee Directory</h1>
+   <Header title="Employee Directory"/>
   </div>
 )
 }
